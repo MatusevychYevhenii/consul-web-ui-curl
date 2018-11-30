@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <h3>Created</h3>
+      <table border = 1>
+         {% for key, value in result.items() %}
+
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+
+         {% endfor %}
+      </table><br>
+      <a href="/">Back</a>
+   </body>
+</html>

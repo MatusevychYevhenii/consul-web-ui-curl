@@ -1,0 +1,9 @@
+version: "3"
+services:
+  uiconsul:
+    image: ygritte/uiconsul:latest
+    ports:
+      - 5000:80
+    command:
+      - '--server=localhost'
+      - '--port=8500'
